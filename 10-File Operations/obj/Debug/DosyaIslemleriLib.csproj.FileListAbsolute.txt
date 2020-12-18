@@ -1,0 +1,10 @@
+C:\Users\toshıba\Desktop\12Subat\OOPGirisApp\DosyaIslemleriLib\bin\Debug\DosyaIslemleriLib.dll
+C:\Users\toshıba\Desktop\12Subat\OOPGirisApp\DosyaIslemleriLib\bin\Debug\DosyaIslemleriLib.pdb
+C:\Users\toshıba\Desktop\12Subat\OOPGirisApp\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.csprojResolveAssemblyReference.cache
+C:\Users\toshıba\Desktop\12Subat\OOPGirisApp\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.dll
+C:\Users\toshıba\Desktop\12Subat\OOPGirisApp\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.pdb
+C:\Users\vektorel\Desktop\DosyaIslemleriLib\bin\Debug\DosyaIslemleriLib.dll
+C:\Users\vektorel\Desktop\DosyaIslemleriLib\bin\Debug\DosyaIslemleriLib.pdb
+C:\Users\vektorel\Desktop\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.csprojResolveAssemblyReference.cache
+C:\Users\vektorel\Desktop\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.dll
+C:\Users\vektorel\Desktop\DosyaIslemleriLib\obj\Debug\DosyaIslemleriLib.pdb
