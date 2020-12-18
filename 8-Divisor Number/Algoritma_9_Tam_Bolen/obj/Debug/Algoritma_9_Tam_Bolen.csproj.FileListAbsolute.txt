@@ -1,0 +1,6 @@
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\bin\Debug\Algoritma_9_Tam_Bolen.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\bin\Debug\Algoritma_9_Tam_Bolen.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\bin\Debug\Algoritma_9_Tam_Bolen.pdb
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\obj\Debug\Algoritma_9_Tam_Bolen.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\obj\Debug\Algoritma_9_Tam_Bolen.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_9_Tam_Bolen\Algoritma_9_Tam_Bolen\obj\Debug\Algoritma_9_Tam_Bolen.pdb
