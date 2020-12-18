@@ -1,0 +1,6 @@
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\bin\Debug\Algoritma_8_Asal_Sayi.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\obj\Debug\Algoritma_8_Asal_Sayi.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\bin\Debug\Algoritma_8_Asal_Sayi.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\bin\Debug\Algoritma_8_Asal_Sayi.pdb
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\obj\Debug\Algoritma_8_Asal_Sayi.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi\obj\Debug\Algoritma_8_Asal_Sayi.pdb

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritma_8_Asal_Sayi", "Algoritma_8_Asal_Sayi\Algoritma_8_Asal_Sayi.csproj", "{199FC36F-7A86-4AF0-8545-9C43CE6B33BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199FC36F-7A86-4AF0-8545-9C43CE6B33BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199FC36F-7A86-4AF0-8545-9C43CE6B33BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199FC36F-7A86-4AF0-8545-9C43CE6B33BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199FC36F-7A86-4AF0-8545-9C43CE6B33BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
