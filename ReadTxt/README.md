@@ -19,13 +19,13 @@ This is OOP and algorithm solution that made for Cs-Tech company
   Note: White color b, Black color s and for example Black Rook = ks , White Queen = vs
 
 ## About *Example Chess Board...*
-xx xx xx ks xx xx xx ss
-xx ps kb xx xx xx fs xx
-ps xx xx xx xx xx pb ps
-xx xx xx fb xx xx xx xx
-xx xx xx as pb xx xx xx
-xx pb xx sb xx xx xx xx
-pb xx xx xx ab vs xx xx
+xx xx xx ks xx xx xx ss__
+xx ps kb xx xx xx fs xx__
+ps xx xx xx xx xx pb ps__
+xx xx xx fb xx xx xx xx__
+xx xx xx as pb xx xx xx__
+xx pb xx sb xx xx xx xx__
+pb xx xx xx ab vs xx xx__
 xx xx xx xx xx xx xx kb
 
   Note: Chess board will be readen from text document.
