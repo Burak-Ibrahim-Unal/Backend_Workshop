@@ -1,0 +1,6 @@
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\bin\Debug\ReadTxt.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\bin\Debug\ReadTxt.exe
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\bin\Debug\ReadTxt.pdb
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\obj\Debug\ReadTxt.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\obj\Debug\ReadTxt.exe
+c:\users\burak\documents\visual studio 2015\Projects\ReadTxt\ReadTxt\obj\Debug\ReadTxt.pdb
