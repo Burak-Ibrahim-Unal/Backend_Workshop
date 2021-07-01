@@ -28,6 +28,6 @@ xx pb xx sb xx xx xx xx<br />
 pb xx xx xx ab vs xx xx<br />
 xx xx xx xx xx xx xx kb
 
-  Note: Chess board will be readen from text document.
+  Note: Chess board will be readen from text document that is in Final_Exe folder.
 
   
