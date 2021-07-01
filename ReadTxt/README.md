@@ -8,12 +8,12 @@ This is OOP and algorithm solution that made for Cs-Tech company
 **3.** If a piece is threatened by any of the opponent's pieces, the threatened piece's score is half its score in Table 1.
 
 ## About Chess Pieces
-# - Pawn= p 1 point
-# - Knight= a 3
-# - Bishop= f 3
-# - Rook= k 5
-# - Queen= v 9
-# - King= s 100
+# - Pawn= p = 1 point
+# - Knight= a = 3 points
+# - Bishop= f = 3 points
+# - Rook= k = 5 points
+# - Queen= v = 9 points
+# - King= s = 100 points
 # - Empty= xx
 
   Note: White color b, Black color s and for example Black Rook = ks , White Queen = vs
