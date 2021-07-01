@@ -30,4 +30,6 @@ xx xx xx xx xx xx xx kb
 
   Note: Chess board will be readen from text document that is in Final_Exe folder.
 
-  
+  ![Screenshot_2](https://user-images.githubusercontent.com/32199163/124174097-9bee8280-dab4-11eb-8a91-31217e2fd846.jpg)
+*Black Points = (3*0.5)+(5*1)+(3*2)+(3*2)+(5*2)+9+100 = 137.5,
+*White Points = (1*0.5)+(7*1)+(3*2)+(3*2)+(5*2)+9+100 = 138.5
