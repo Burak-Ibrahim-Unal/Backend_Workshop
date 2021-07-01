@@ -24,3 +24,5 @@ xx xx xx as pb xx xx xx
 xx pb xx sb xx xx xx xx
 pb xx xx xx ab vs xx xx
 xx xx xx xx xx xx xx kb
+
+Note: Chess board will be readen from text document.
