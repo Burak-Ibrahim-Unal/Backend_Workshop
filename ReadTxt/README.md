@@ -5,7 +5,8 @@ This is OOP and algorithm solution that made for Cs-Tech company
 
 **1.** Checking whether a piece is under threat occurs when there is one or more pieces of the opposite color that threaten that piece.<br />
 **2.** Table 1 Chess Pieces In Table 1, the points of the pieces are given. If a piece is not threatened, it gets the score on the table.<br />
-**3.** If a piece is threatened by any of the opponent's pieces, the threatened piece's score is half its score in Table 1.
+**3.** If a piece is threatened by any of the opponent's pieces, the threatened piece's score is half its score in Table 1.<br />
+**4.** Pieces that only the knight and the bishop can destroy will be half scored
 
 ## About Chess Pieces
 * Pawn= p = 1 point
