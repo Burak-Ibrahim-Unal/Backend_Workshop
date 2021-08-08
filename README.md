@@ -1,1 +1,3 @@
-# C_Sharp_Project_Codes Updated 2021 March
+# C_Sharp_Project_Codes Updated 2021 August
+
+Algorithm soluitons and Oop sample codes...
