@@ -1,0 +1,6 @@
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\bin\Debug\Algoritma_11_EBOB.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\bin\Debug\Algoritma_11_EBOB.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\bin\Debug\Algoritma_11_EBOB.pdb
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\obj\Debug\Algoritma_11_EBOB.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\obj\Debug\Algoritma_11_EBOB.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_11_EBOB\Algoritma_11_EBOB\obj\Debug\Algoritma_11_EBOB.pdb

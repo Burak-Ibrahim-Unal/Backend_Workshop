@@ -1,0 +1,5 @@
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_4\Algoritma_4\bin\Debug\Algoritma_4.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_4\Algoritma_4\bin\Debug\Algoritma_4.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_4\Algoritma_4\bin\Debug\Algoritma_4.pdb
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_4\Algoritma_4\obj\Debug\Algoritma_4.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_4\Algoritma_4\obj\Debug\Algoritma_4.pdb

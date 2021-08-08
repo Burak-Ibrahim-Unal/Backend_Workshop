@@ -1,5 +1,0 @@
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_7\Algoritma_7\bin\Debug\Algoritma_7.exe.config
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_7\Algoritma_7\bin\Debug\Algoritma_7.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_7\Algoritma_7\bin\Debug\Algoritma_7.pdb
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_7\Algoritma_7\obj\Debug\Algoritma_7.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_7\Algoritma_7\obj\Debug\Algoritma_7.pdb

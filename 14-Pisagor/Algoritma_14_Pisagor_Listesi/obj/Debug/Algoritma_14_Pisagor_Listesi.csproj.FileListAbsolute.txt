@@ -1,6 +1,0 @@
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\bin\Debug\Algoritma_14_Pisagor_Listesi.exe.config
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\obj\Debug\Algoritma_14_Pisagor_Listesi.csprojResolveAssemblyReference.cache
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\bin\Debug\Algoritma_14_Pisagor_Listesi.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\bin\Debug\Algoritma_14_Pisagor_Listesi.pdb
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\obj\Debug\Algoritma_14_Pisagor_Listesi.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_14_Pisagor_Listesi\Algoritma_14_Pisagor_Listesi\obj\Debug\Algoritma_14_Pisagor_Listesi.pdb

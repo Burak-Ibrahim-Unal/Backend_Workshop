@@ -1,6 +1,0 @@
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\bin\Debug\Algoritma_10_Mukemmel_Sayi.exe.config
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\bin\Debug\Algoritma_10_Mukemmel_Sayi.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\bin\Debug\Algoritma_10_Mukemmel_Sayi.pdb
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\obj\Debug\Algoritma_10_Mukemmel_Sayi.csprojResolveAssemblyReference.cache
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\obj\Debug\Algoritma_10_Mukemmel_Sayi.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_10_Mukemmel_Sayi\Algoritma_10_Mukemmel_Sayi\obj\Debug\Algoritma_10_Mukemmel_Sayi.pdb

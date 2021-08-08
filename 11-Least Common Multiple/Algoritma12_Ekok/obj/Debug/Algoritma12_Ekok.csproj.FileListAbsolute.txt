@@ -1,6 +1,0 @@
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\bin\Debug\Algoritma12_Ekok.exe.config
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\bin\Debug\Algoritma12_Ekok.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\bin\Debug\Algoritma12_Ekok.pdb
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\obj\Debug\Algoritma12_Ekok.csprojResolveAssemblyReference.cache
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\obj\Debug\Algoritma12_Ekok.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma12_Ekok\Algoritma12_Ekok\obj\Debug\Algoritma12_Ekok.pdb

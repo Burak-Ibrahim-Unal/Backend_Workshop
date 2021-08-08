@@ -1,6 +1,0 @@
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\bin\Debug\StarAlgorithm.exe.config
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\bin\Debug\StarAlgorithm.exe
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\bin\Debug\StarAlgorithm.pdb
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\obj\Debug\StarAlgorithm.csprojResolveAssemblyReference.cache
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\obj\Debug\StarAlgorithm.exe
-C:\Users\Burak\Documents\Visual Studio 2015\Projects\StarAlgorithm\StarAlgorithm\obj\Debug\StarAlgorithm.pdb

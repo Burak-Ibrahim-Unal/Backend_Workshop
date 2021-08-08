@@ -1,6 +1,0 @@
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\bin\Debug\Algoritma_1.exe.config
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\bin\Debug\Algoritma_1.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\bin\Debug\Algoritma_1.pdb
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\obj\Debug\Algoritma_1.csprojResolveAssemblyReference.cache
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\obj\Debug\Algoritma_1.exe
-c:\users\burak\documents\visual studio 2015\Projects\Algoritma_1\Algoritma_1\obj\Debug\Algoritma_1.pdb

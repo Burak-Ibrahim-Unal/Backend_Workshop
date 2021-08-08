@@ -1,0 +1,6 @@
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\bin\Debug\Algoritma_2.exe.config
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\bin\Debug\Algoritma_2.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\bin\Debug\Algoritma_2.pdb
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\obj\Debug\Algoritma_2.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\obj\Debug\Algoritma_2.exe
+c:\users\burak\documents\visual studio 2015\Projects\Algoritma_2\Algoritma_2\obj\Debug\Algoritma_2.pdb
