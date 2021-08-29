@@ -1,0 +1,11 @@
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\bin\Debug\netcoreapp2.1\Test3.deps.json
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\bin\Debug\netcoreapp2.1\Test3.runtimeconfig.json
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\bin\Debug\netcoreapp2.1\Test3.runtimeconfig.dev.json
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\bin\Debug\netcoreapp2.1\Test3.dll
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\bin\Debug\netcoreapp2.1\Test3.pdb
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.csprojAssemblyReference.cache
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.AssemblyInfoInputs.cache
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.AssemblyInfo.cs
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.dll
+C:\Users\Burak\Documents\Visual Studio 2017\Projects\OOP_Hatirlatma\Test1\Test3\obj\Debug\netcoreapp2.1\Test3.pdb
