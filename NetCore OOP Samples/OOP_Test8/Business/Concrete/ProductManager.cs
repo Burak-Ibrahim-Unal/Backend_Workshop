@@ -15,7 +15,7 @@ namespace Business.Concrete
             _iProductDal = iProductDal;
         }
 
-        public List<Product> GetAll()
+        public List<Product> GetAllProducts()
         {
             return _iProductDal.GetAllProducts();
         }
