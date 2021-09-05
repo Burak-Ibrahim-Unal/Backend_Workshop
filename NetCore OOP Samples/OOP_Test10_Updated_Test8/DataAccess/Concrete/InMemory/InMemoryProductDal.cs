@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace DataAccess.Concrete.InMemory
@@ -46,6 +47,16 @@ namespace DataAccess.Concrete.InMemory
             _products.Remove(ProductToDelete);
         }
 
+        public Product GetProduct(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetAllProducts(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAllByCategory(int categoryId)
         {
             // With Linq
@@ -56,6 +67,8 @@ namespace DataAccess.Concrete.InMemory
         {
             return _products;
         }
+
+
 
         public void Update(Product p)
         {
@@ -68,6 +81,11 @@ namespace DataAccess.Concrete.InMemory
             ProductToUpdate.UnitsInStock = p.UnitsInStock;
 
 
+        }
+
+        public List<Product> GetAllByCategoryId(int categoryId)
+        {
+            throw new NotImplementedException();
         }
     }
 }
