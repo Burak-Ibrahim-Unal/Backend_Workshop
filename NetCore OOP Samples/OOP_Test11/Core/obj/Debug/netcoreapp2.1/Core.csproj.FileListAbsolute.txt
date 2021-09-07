@@ -1,0 +1,8 @@
+C:\Users\Burak\source\repos\OOP_Test11\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+C:\Users\Burak\source\repos\OOP_Test11\Core\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Burak\source\repos\OOP_Test11\Core\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Burak\source\repos\OOP_Test11\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Burak\source\repos\OOP_Test11\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+C:\Users\Burak\source\repos\OOP_Test11\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+C:\Users\Burak\source\repos\OOP_Test11\Core\obj\Debug\netcoreapp2.1\Core.dll
+C:\Users\Burak\source\repos\OOP_Test11\Core\obj\Debug\netcoreapp2.1\Core.pdb
