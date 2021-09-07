@@ -30,6 +30,14 @@ namespace ConsoleUI
 
             Console.WriteLine("-----------------------------------------------------------");
 
+            ProductManager productManager3a = new ProductManager(new EfProductDal());
+            foreach (var product in productManager3a.GetProductDetails())
+            {
+                Console.WriteLine("Product Name:{0} with category id: {1}", product.ProductName, product.CategoryName);
+            }
+
+            Console.WriteLine("-----------------------------------------------------------");
+
             ProductManager productManager2b = new ProductManager(new EfProductDal());
             foreach (var product in productManager2b.GetAllByUnitPrice(10, 30))
             {
