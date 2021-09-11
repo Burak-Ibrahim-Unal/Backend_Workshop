@@ -21,6 +21,8 @@ namespace Business.Concrete
             return _productDal.GetAll(p => p.CategoryId == categoryId);
         }
 
+
+
         public List<Product> GetAllProducts()
         {
             return _productDal.GetAll();
