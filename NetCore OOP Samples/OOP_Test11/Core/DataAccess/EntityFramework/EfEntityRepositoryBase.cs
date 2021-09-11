@@ -64,7 +64,5 @@ namespace Core.DataAccess.EntityFramework
                 contex.SaveChanges();
             }
         }
-
-
     }
 }

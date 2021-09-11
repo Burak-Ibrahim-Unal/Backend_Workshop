@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Entities</id>
+    <version>1.0.0</version>
+    <authors>Entities</authors>
+    <owners>Entities</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test15\Entities\bin\Debug\netcoreapp2.1\Entities.dll" target="lib\netcoreapp2.1\Entities.dll" />
+  </files>
+</package>
