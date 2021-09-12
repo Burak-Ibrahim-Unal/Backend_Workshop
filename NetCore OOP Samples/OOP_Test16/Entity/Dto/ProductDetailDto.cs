@@ -12,5 +12,7 @@ namespace Entity.Dto
         public string ProductName { get; set; }
         public string CategoryName { get; set; }
         public decimal UnitPrice { get; set; }
+        public int UnitStock { get; set; }
+
     }
 }

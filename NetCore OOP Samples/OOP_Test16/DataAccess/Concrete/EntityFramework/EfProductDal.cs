@@ -18,7 +18,9 @@ namespace DataAccess.Concrete.EntityFramework
                 var DbResult = from p in nc.Products
                                join c in nc.Categories
                                on p.CategoryId equals c.CategoryId
-                               select new ProductDetailDto { ProductId = p.ProductId, ProductName = p.ProductName, CategoryName = c.CategoryName, UnitPrice = p.UnitPrice };
+                               where p.UnitPrice > 10 && p.UnitsInStock < 10
+                               orderby p.UnitsInStock
+                               select new ProductDetailDto { ProductId = p.ProductId, ProductName = p.ProductName, CategoryName = c.CategoryName, UnitPrice = p.UnitPrice, UnitStock = p.UnitsInStock };
                 return DbResult.ToList();
             }
         }

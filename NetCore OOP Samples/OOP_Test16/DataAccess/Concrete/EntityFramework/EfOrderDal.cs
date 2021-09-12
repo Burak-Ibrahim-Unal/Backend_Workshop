@@ -17,8 +17,9 @@ namespace DataAccess.Concrete.EntityFramework
             using (NorthwindContext nc = new NorthwindContext())
             {
                 var DbResult = (from o in nc.Orders
-                                join c in nc.Customers on o.CustomerId equals c.CustomerId
                                 join e in nc.Employees on o.EmployeeId equals e.EmployeeId
+                                join c in nc.Customers on o.CustomerId equals c.CustomerId
+                                where c.Address.Contains("57")
                                 select new OrderDetailDto
                                 {
                                     OrderId = o.OrderId,

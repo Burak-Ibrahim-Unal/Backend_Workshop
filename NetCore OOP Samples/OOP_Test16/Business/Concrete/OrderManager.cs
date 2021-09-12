@@ -20,7 +20,7 @@ namespace Business.Concrete
             return _orderDal.GetAll(o => o.CustomerId == customerId);
         }
 
-        public List<Order> GetAllByEmployeeId(string employeeId)
+        public List<Order> GetAllByEmployeeId(int employeeId)
         {
             return _orderDal.GetAll(o => o.EmployeeId == employeeId);
         }
