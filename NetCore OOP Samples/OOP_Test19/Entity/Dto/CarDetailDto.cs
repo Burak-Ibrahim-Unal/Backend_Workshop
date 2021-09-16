@@ -10,6 +10,6 @@ namespace Entity.Dto
         public int Id { get; set; }
         public string BrandName { get; set; }
         public string ColorName { get; set; }
-        public string Model { get; set; }
+        public int Model { get; set; }
     }
 }

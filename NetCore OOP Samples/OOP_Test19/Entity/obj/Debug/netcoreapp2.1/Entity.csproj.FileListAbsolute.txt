@@ -1,0 +1,12 @@
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\bin\Debug\netcoreapp2.1\Entity.deps.json
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\bin\Debug\netcoreapp2.1\Entity.dll
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\bin\Debug\netcoreapp2.1\Entity.pdb
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.csprojAssemblyReference.cache
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.AssemblyInfo.cs
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.csproj.CopyComplete
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.dll
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test19\Entity\obj\Debug\netcoreapp2.1\Entity.pdb
