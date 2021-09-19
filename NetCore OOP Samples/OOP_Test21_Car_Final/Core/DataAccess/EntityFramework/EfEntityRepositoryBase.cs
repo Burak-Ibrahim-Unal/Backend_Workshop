@@ -18,7 +18,7 @@ namespace Core.DataAccess
             using (TContext tc = new TContext())
             {
                 var added = tc.Entry(entity);
-                added.State = EntityState.Deleted;
+                added.State = EntityState.Added;
                 tc.SaveChanges();
             }
 

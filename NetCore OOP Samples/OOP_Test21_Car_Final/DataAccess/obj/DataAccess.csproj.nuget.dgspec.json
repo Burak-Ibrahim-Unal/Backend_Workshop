@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj": {
+    "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -98,8 +98,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\Entity.csproj"
+              "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\Entity.csproj": {
+    "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -171,8 +171,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj"
+              "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj"
               }
             }
           }

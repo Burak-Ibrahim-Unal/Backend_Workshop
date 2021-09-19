@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eBZ/xfJ/wfbuyjfFhK6ekhcSTH7R5+ohwd7jjSfdC3kJn3ogH3oNhN1uVKmwC4WT6FrjmfKbzgPcZJMgWHTonQ==",
+  "dgSpecHash": "6Rxcb84pNNtv1GL9zpUJXu4HeSKKlPr/qiEiPPGzmBJ7a1ZovqGrHDU6iBOKLsjFi4gKJUQncYRpxMC2vRPoWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Burak\\source\\repos\\OOP_Test21_Car_Final\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
