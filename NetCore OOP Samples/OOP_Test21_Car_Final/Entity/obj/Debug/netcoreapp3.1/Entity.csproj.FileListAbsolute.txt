@@ -1,0 +1,13 @@
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.AssemblyReference.cache
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CopyComplete
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+C:\Users\Burak\source\repos\OOP_Test21_Car_Final\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
