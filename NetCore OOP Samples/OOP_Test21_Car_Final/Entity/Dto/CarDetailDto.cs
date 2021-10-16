@@ -11,5 +11,6 @@ namespace Entity.Dto
         public string BrandName { get; set; }
         public string ColorName { get; set; }
         public int Model { get; set; }
+        public decimal DailyCost { get; set; }
     }
 }
