@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entity.Concrete;
 using Entity.Dto;
@@ -11,33 +12,53 @@ namespace Business.Concrete
     public class OrderManager : IOrderService
     {
         IOrderDal _orderDal;
+
         public OrderManager(IOrderDal orderDal)
         {
             _orderDal = orderDal;
         }
-        public List<Order> GetAllByCustomerId(string customerId)
+
+        public IResult Add(Order p)
         {
-            return _orderDal.GetAll(o => o.CustomerId == customerId);
+            throw new NotImplementedException();
         }
 
-        public List<Order> GetAllByEmployeeId(int employeeId)
+        public IResult Update(Order p)
         {
-            return _orderDal.GetAll(o => o.EmployeeId == employeeId);
+            throw new NotImplementedException();
         }
 
-        public List<Order> GetAllByOrderDate(DateTime orderDate)
+        public IDataResult<List<Order>> GetAllByCustomerId(string customerId)
         {
-            return _orderDal.GetAll(o => o.OrderDate == orderDate);
+            return new SuccessDataResult<List<Order>>(_orderDal.GetAll(o => o.CustomerId == customerId));
         }
 
-        public List<Order> GetAllOrders()
+
+
+        public IDataResult<List<Order>> GetAllByEmployeeId(int employeeId)
         {
-            return _orderDal.GetAll();
+            return new SuccessDataResult<List<Order>>(_orderDal.GetAll(o => o.EmployeeId == employeeId));
         }
 
-        public List<OrderDetailDto> GetOrderDetails()
+
+
+        public IDataResult<List<Order>> GetAllByOrderDate(DateTime orderDate)
         {
-            return _orderDal.GetOrderDetails();
+            return new SuccessDataResult<List<Order>>(_orderDal.GetAll(o => o.OrderDate == orderDate));
         }
+
+
+
+        public IDataResult<List<Order>> GetAllOrders()
+        {
+            return new SuccessDataResult<List<Order>>(_orderDal.GetAll());
+        }
+
+
+        public IDataResult<List<OrderDetailDto>> GetOrderDetails()
+        {
+            return new SuccessDataResult<List<OrderDetailDto>>(_orderDal.GetOrderDetails());
+        }
+
     }
 }

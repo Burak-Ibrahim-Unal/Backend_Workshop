@@ -68,6 +68,7 @@ C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test22_Product_Final\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll

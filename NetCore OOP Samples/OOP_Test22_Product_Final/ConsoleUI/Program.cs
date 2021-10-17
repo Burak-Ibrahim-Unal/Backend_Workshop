@@ -23,12 +23,20 @@ namespace ConsoleUI
 
         private static void OrderTest()
         {
-            Console.WriteLine("*** All orders where address contain number  57 \n"); // it is only fantasy... :)
+            Console.WriteLine("*** All orders where address contains number 57 \n"); // it is only fantasy... :)
 
             OrderManager orderManager = new OrderManager(new EfOrderDal());
-            foreach (var order in orderManager.GetOrderDetails())
+            var result = orderManager.GetOrderDetails();
+            if (result.Success)
             {
-                Console.WriteLine("Order Id:{0} ------- Employee First Name: {1}, Employee Last Name: {2} ------- Company Name: {2} ------- Contact Name: {3} ------- Address:{4}", order.OrderId, order.EmployeeFirstName, order.EmployeeLastName, order.CompanyName, order.ContactName, order.Address);
+                foreach (var order in result.Data)
+                {
+                    Console.WriteLine("Order Id:{0} ------- Employee First Name: {1}, Employee Last Name: {2} ------- Company Name: {2} ------- Contact Name: {3} ------- Address:{4}", order.OrderId, order.EmployeeFirstName, order.EmployeeLastName, order.CompanyName, order.ContactName, order.Address);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
@@ -48,7 +56,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine(result.Message);
             }
-
         }
     }
 }
