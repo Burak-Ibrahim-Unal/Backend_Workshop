@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "lm+9upEWAKrl3pLiJ2DDkJ5EkvAcOnEyeqcLlBdZt+CtdCgCs7RJEkNI2UIfSuV8kKry6zdWXGnacl6Fb7oc1g==",
+  "dgSpecHash": "IKrbHvq32sCiWbt5WiBIpqy1bUYwwNGioVNS0dXLTEs95XOnjAd16ofAmbEvBpPvIuQPWEvuSca2aFDaBubANg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test22_Product_Final\\Business\\Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Burak\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

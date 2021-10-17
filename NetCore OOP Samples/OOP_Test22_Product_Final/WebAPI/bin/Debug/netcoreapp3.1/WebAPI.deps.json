@@ -313,14 +313,14 @@
           "WebAPI.dll": {}
         }
       },
-      "Autofac/6.2.0": {
+      "Autofac/6.3.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "4.7.1"
         },
         "runtime": {
           "lib/netstandard2.1/Autofac.dll": {
-            "assemblyVersion": "6.2.0.0",
-            "fileVersion": "6.2.0.0"
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
           }
         },
         "compile": {
@@ -329,7 +329,7 @@
       },
       "Autofac.Extensions.DependencyInjection/7.1.0": {
         "dependencies": {
-          "Autofac": "6.2.0",
+          "Autofac": "6.3.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.19"
         },
         "runtime": {
@@ -344,7 +344,7 @@
       },
       "Autofac.Extras.DynamicProxy/6.0.0": {
         "dependencies": {
-          "Autofac": "6.2.0",
+          "Autofac": "6.3.0",
           "Castle.Core": "4.4.0"
         },
         "runtime": {
@@ -378,6 +378,17 @@
         },
         "compile": {
           "lib/netstandard1.5/Castle.Core.dll": {}
+        }
+      },
+      "FluentValidation/10.3.3": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1789,9 +1800,10 @@
       },
       "Business/1.0.0": {
         "dependencies": {
-          "Autofac": "6.2.0",
+          "Autofac": "6.3.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
-          "DataAccess": "1.0.0"
+          "DataAccess": "1.0.0",
+          "FluentValidation": "10.3.3"
         },
         "runtime": {
           "Business.dll": {}
@@ -1802,6 +1814,10 @@
       },
       "Core/1.0.0": {
         "dependencies": {
+          "Autofac": "6.3.0",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "Autofac.Extras.DynamicProxy": "6.0.0",
+          "FluentValidation": "10.3.3",
           "Microsoft.EntityFrameworkCore": "3.1.19"
         },
         "runtime": {
@@ -3457,12 +3473,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Autofac/6.2.0": {
+    "Autofac/6.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BX8IM0GANE38uSr4QwXL4PgA8vWWYt2P5cZzipn/vDnf0fDbPSGKSHEroJ09rB7ANxdyf7MdEgVs+pvL8kwYCg==",
-      "path": "autofac/6.2.0",
-      "hashPath": "autofac.6.2.0.nupkg.sha512"
+      "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "path": "autofac/6.3.0",
+      "hashPath": "autofac.6.3.0.nupkg.sha512"
     },
     "Autofac.Extensions.DependencyInjection/7.1.0": {
       "type": "package",
@@ -3484,6 +3500,13 @@
       "sha512": "sha512-b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
+    },
+    "FluentValidation/10.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
+      "path": "fluentvalidation/10.3.3",
+      "hashPath": "fluentvalidation.10.3.3.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
