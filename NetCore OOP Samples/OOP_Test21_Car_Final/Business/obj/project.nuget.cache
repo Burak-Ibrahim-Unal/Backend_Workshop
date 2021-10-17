@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oojpG0Rd9Bjcc2ADH/BnQhKAXU6OtE7jSinCdF1wlqx61Xmm5Bbu5l5XA5ot1j8wlwPNm/QuvMCdQuhVLxX72Q==",
+  "dgSpecHash": "LDFFjmGhqq1c+PPTgsmLZZes4q2ojqpF4eQNirdihHIrVR2Yz24Nt9YJbk/fR+MwLvPx8YHzuUnwFZ4TO3cLtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",

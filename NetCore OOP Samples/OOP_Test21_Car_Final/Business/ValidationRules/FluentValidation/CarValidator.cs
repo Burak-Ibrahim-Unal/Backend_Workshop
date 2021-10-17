@@ -11,7 +11,8 @@ namespace Business.ValidationRules.FluentValidation
         public CarValidator()
         {
             RuleFor(c => c.Model).GreaterThan(1850);
-            RuleFor(c => c.Model).LessThan(DateTime.Now.Year + 1);
+            RuleFor(c => c.Model).LessThanOrEqualTo(DateTime.Now.Year + 1);
+            RuleFor(c => c.DailyCost).GreaterThanOrEqualTo(100);
         }
     }
 }
