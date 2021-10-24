@@ -16,10 +16,10 @@ namespace DataAccess.Concrete.EntityFramwork
         {
             using (CarsTestContext ctc = new CarsTestContext())
             {
-                var DbResult = (from c in ctc.Cars
+
+                var DbResult = (from co in ctc.Colors
+                                join c in ctc.Cars on co.Id equals c.ColorId
                                 join bd in ctc.BrandDetails on c.BrandDetailsId equals bd.Id
-                                join co in ctc.Colors on c.ColorId equals co.Id
-                                join b in ctc.Brands on bd.BrandId equals b.Id 
                                 select new CarDetailDto
                                 {
                                     Id = c.Id,
@@ -35,6 +35,25 @@ namespace DataAccess.Concrete.EntityFramwork
                                     IsActive = c.IsActive
                                 }).ToList();
                 return DbResult;
+                //var DbResult = (from c in ctc.Cars
+                //                join bd in ctc.BrandDetails on c.BrandDetailsId equals bd.Id
+                //                join co in ctc.Colors on c.ColorId equals co.Id
+                //                //join b in ctc.Brands on bd.BrandId equals b.Id 
+                //                select new CarDetailDto
+                //                {
+                //                    Id = c.Id,
+                //                    //BrandTitle = bd.BrandTitle,
+                //                    BrandName = bd.BrandName,
+                //                    BrandSerie = bd.BrandSerie,
+                //                    EngineType = bd.EngineType,
+                //                    FuelType = bd.FuelType,
+                //                    GearType = bd.GearType,
+                //                    ColorName = co.ColorName,
+                //                    Model = c.Model,
+                //                    DailyCost = c.DailyCost,
+                //                    IsActive = c.IsActive
+                //                }).ToList();
+                //return DbResult;
             }
         }
     }

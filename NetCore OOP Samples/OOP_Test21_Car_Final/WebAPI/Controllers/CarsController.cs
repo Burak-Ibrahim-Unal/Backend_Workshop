@@ -43,7 +43,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getcarsbycolor")]
+        [HttpGet("getcarsbycolor/{color}")]
         public IActionResult GetAllCarsByColor(string color)
         {
             var result = _carService.GetCarByColor(color);
@@ -54,7 +54,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getcarbyid")]
+        //api/cars/getcarbyid/1
+        [HttpGet("getcarbyid/{id}")]
         public IActionResult GetCarById(int id)
         {
             var result = _carService.GetCarById(id);
@@ -65,8 +66,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-
-        [HttpGet("getcarsbymodel")]
+        // api/cars/getcarsbymodel/?m1=2010&&m2=2020
+        [HttpGet("getcarsbymodel/{m1}/{m2}")]
         public IActionResult GetAllCarsByModel(int m1, int m2)
         {
             var result = _carService.GetAllCarsByModel(m1, m2);
@@ -77,11 +78,36 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-
+        // api/cars/getcarsdetails
         [HttpGet("getcarsdetails")]
         public IActionResult GetCarDetails()
         {
             var result = _carService.GetCarDetails();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        // api/cars/getcardetailsfuel/Diesel
+        [HttpGet("getcardetailsfuel/{fuel}")]
+        public IActionResult GetCarDetailsFuel(string fuel)
+        {
+            var result = _carService.GetCarDetailsFuel(fuel);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }      
+        
+        
+        // api/cars/getcardetailsfuel/Manuel
+        [HttpGet("getcardetailscolor/{carColor}")]
+        public IActionResult GetCarByColor(string carColor)
+        {
+            var result = _carService.GetCarByColor(carColor);
             if (result.Success)
             {
                 return Ok(result);
