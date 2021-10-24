@@ -17,7 +17,9 @@ namespace Business.DependencyResolvers.Autofac
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CarManager>().As<ICarService>().SingleInstance(); // If icarservice is called,use carmanager instead of it
+            builder.RegisterType<RentalManager>().As<IRentalService>().SingleInstance(); // If icarservice is called,use carmanager instead of it
             builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
+            builder.RegisterType<EfRentalDal>().As<IRentalDal>().SingleInstance();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

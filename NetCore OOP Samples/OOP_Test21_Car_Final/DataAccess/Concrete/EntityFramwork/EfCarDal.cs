@@ -10,22 +10,29 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramwork
 {
-    public class EfCarDal : EfEntityRepositoryBase<Car, CarsTest>, ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car, CarsTestContext>, ICarDal
     {
         public List<CarDetailDto> GetCarDetails()
         {
-            using (CarsTest nc = new CarsTest())
+            using (CarsTestContext ctc = new CarsTestContext())
             {
-                var DbResult = (from c in nc.Cars
-                                join b in nc.Brands on c.BrandId equals b.Id
-                                join co in nc.Colors on c.ColorId equals co.Id
+                var DbResult = (from c in ctc.Cars
+                                join bd in ctc.BrandDetails on c.BrandDetailsId equals bd.Id
+                                join co in ctc.Colors on c.ColorId equals co.Id
+                                join b in ctc.Brands on bd.BrandId equals b.Id 
                                 select new CarDetailDto
                                 {
                                     Id = c.Id,
-                                    BrandName = b.BrandName,
+                                    BrandTitle = bd.BrandTitle,
+                                    BrandName = bd.BrandName,
+                                    BrandSerie = bd.BrandSerie,
+                                    EngineType = bd.EngineType,
+                                    FuelType = bd.FuelType,
+                                    GearType = bd.GearType,
                                     ColorName = co.ColorName,
                                     Model = c.Model,
-                                    DailyCost = c.DailyCost
+                                    DailyCost = c.DailyCost,
+                                    IsActive = c.IsActive
                                 }).ToList();
                 return DbResult;
             }

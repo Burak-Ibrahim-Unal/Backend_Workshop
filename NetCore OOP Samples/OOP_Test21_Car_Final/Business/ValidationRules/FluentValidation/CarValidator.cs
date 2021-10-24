@@ -13,6 +13,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(c => c.Model).GreaterThan(1850);
             RuleFor(c => c.Model).LessThanOrEqualTo(DateTime.Now.Year + 1);
             RuleFor(c => c.DailyCost).GreaterThanOrEqualTo(100);
+            RuleFor(c => c.DailyCost).NotEmpty();
         }
     }
 }
