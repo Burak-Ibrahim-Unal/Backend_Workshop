@@ -56,7 +56,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.AllCarsListed);
         }
 
-        IDataResult<List<CarDetailDto>> ICarService.GetCarByColor(string colorName)
+        public IDataResult<List<CarDetailDto>> GetCarByColor(string colorName)
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(car => car.ColorName == colorName).ToList());
         }
@@ -73,6 +73,7 @@ namespace Business.Concrete
         public IDataResult<List<CarDetailDto>> GetCarDetailsFuel(string fuel)
         {
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(c => c.FuelType == fuel).ToList());
+
         }
 
 

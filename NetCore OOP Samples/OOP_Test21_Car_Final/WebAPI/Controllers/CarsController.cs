@@ -43,8 +43,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getcarsbycolor/{color}")]
-        public IActionResult GetAllCarsByColor(string color)
+        [HttpGet("getcarbycolor/{color}")]
+        public IActionResult GetCarByColor(string color)
         {
             var result = _carService.GetCarByColor(color);
             if (result.Success)
@@ -102,18 +102,6 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }      
         
-        
-        // api/cars/getcardetailsfuel/Manuel
-        [HttpGet("getcardetailscolor/{carColor}")]
-        public IActionResult GetCarByColor(string carColor)
-        {
-            var result = _carService.GetCarByColor(carColor);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
 
 
         [HttpPost("add")]
