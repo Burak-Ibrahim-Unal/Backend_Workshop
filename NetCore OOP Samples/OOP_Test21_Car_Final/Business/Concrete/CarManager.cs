@@ -48,7 +48,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Car>> GetAllCarsByModel(int minModel, int maxModel)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Model > minModel && c.Model < maxModel));
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Model >= minModel && c.Model <= maxModel));
         }
 
         public IDataResult<List<Car>> GetAllCarsWithDeleted()
@@ -58,7 +58,7 @@ namespace Business.Concrete
 
         public IDataResult<List<CarDetailDto>> GetCarByColor(string colorName)
         {
-            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(car => car.ColorName == colorName).ToList());
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails().Where(car => car.ColorName.ToLower().Trim() == colorName.ToLower().Trim()).ToList());
         }
         public IDataResult<Car> GetCarById(int carId)
         {

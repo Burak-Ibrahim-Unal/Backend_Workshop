@@ -66,8 +66,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        // api/cars/getcarsbymodel/?m1=2010&&m2=2020
-        [HttpGet("getcarsbymodel/{m1}/{m2}")]
+        // api/cars/getcarsbymodel/?m1=2010&m2=2020
+        [HttpGet("getcarsbymodel")]
         public IActionResult GetAllCarsByModel(int m1, int m2)
         {
             var result = _carService.GetAllCarsByModel(m1, m2);
