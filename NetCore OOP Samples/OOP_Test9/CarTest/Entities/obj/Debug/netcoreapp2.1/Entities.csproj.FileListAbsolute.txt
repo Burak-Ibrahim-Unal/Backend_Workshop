@@ -1,9 +1,0 @@
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\bin\Debug\netcoreapp2.1\Entities.dll
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.csprojAssemblyReference.cache
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.dll
-C:\Users\Burak\Desktop\Github\C_Sharp_Project_Codes\NetCore OOP Samples\OOP_Test9\CarTest\Entities\obj\Debug\netcoreapp2.1\Entities.pdb
