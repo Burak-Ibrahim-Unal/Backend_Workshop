@@ -40,7 +40,7 @@ namespace _17_FriendlyNumbers
             }
             else
             {
-                Console.WriteLine($" {num1} and {num2} numbers not amicable numbers");
+                Console.WriteLine($" {num1} and {num2} numbers are not amicable numbers");
             }
         }
     }
