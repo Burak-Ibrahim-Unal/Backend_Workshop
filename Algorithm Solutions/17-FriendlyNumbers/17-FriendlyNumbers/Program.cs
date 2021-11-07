@@ -36,11 +36,11 @@ namespace _17_FriendlyNumbers
         {
             if (calculateDivisorSum(num1) == num2 && calculateDivisorSum(num2) == num1)
             {
-                Console.WriteLine($" {num1} and {num2} are amicable numbers");
+                Console.WriteLine($"{num1} and {num2} are amicable numbers");
             }
             else
             {
-                Console.WriteLine($" {num1} and {num2} numbers are not amicable numbers");
+                Console.WriteLine($"{num1} and {num2} numbers are not amicable numbers");
             }
         }
     }
