@@ -10,7 +10,7 @@ namespace _17_FriendlyNumbers
             Console.ReadLine();
         }
 
-        static int calculateDivisorSum(int num)
+        private static int calculateDivisorSum(int num)
         {
             int numberSum = 1;
             for (int i = 2; i < num; i++)
