@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5351af20-f46f-4bd8-a31b-2ad992a69076": {
+      "ProjectGuid": "5351af20-f46f-4bd8-a31b-2ad992a69076",
+      "DisplayName": "FluentValidationApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
