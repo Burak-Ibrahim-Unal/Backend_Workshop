@@ -1,14 +1,34 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using FluentValidationApp.FluentValidators;
 using FluentValidationApp.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+
+//There are 3 ways to implement Fluent Validation in Net Core 6
+builder.Services.AddControllersWithViews().AddFluentValidation(options =>
+{
+    //Way1
+    //options.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+    //Way2
+    options.RegisterValidatorsFromAssemblyContaining<CustomerValidator>();
+});
+
+//Way3
+//builder.Services.AddControllersWithViews().AddFluentValidation();
+//builder.Services.AddTransient<IValidator<Customer>, CustomerValidator>();
+
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-   options.UseSqlServer(builder.Configuration["ConnectionStrings"]);
+    options.UseSqlServer(builder.Configuration["ConnectionStrings"]);
 });
+
 
 
 var app = builder.Build();
