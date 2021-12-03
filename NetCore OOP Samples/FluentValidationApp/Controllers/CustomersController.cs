@@ -6,16 +6,21 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FluentValidationApp.Models;
+using FluentValidation;
+using FluentValidationApp.FluentValidators;
 
 namespace FluentValidationApp.Controllers
 {
     public class CustomersController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IValidator<Customer> _customerValidator;
 
-        public CustomersController(AppDbContext context)
+
+        public CustomersController(AppDbContext context, IValidator<Customer> customerValidator)
         {
             _context = context;
+            _customerValidator = customerValidator;
         }
 
         // GET: Customers
@@ -53,14 +58,39 @@ namespace FluentValidationApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Mail,Age")] Customer customer)
+        public async Task<IActionResult> Create([Bind("Name,Mail,Age,Birthday")] Customer customer)
         {
-            if (ModelState.IsValid)
+            // V1
+
+            //if (ModelState.IsValid)
+            //{
+            //    _context.Add(customer);
+            //    await _context.SaveChangesAsync();
+            //    return RedirectToAction(nameof(Index));
+            //}
+
+            //V2 best way
+            var result = _customerValidator.Validate(customer);
+
+            if (result.IsValid)
             {
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+
             }
+
+            //V3 worst way
+            //CustomerValidator customerValidator = new CustomerValidator();
+            //var result =customerValidator.Validate(customer);
+            //if (result.IsValid)
+            //{
+            //    _context.Add(customer);
+            //    await _context.SaveChangesAsync();
+            //    return RedirectToAction(nameof(Index));
+
+            //}
+
             return View(customer);
         }
 

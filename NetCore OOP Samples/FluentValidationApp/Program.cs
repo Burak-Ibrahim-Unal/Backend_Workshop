@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 //There are 3 ways to implement Fluent Validation in Net Core 6
+
 builder.Services.AddControllersWithViews().AddFluentValidation(options =>
 {
     //Way1
