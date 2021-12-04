@@ -33,6 +33,8 @@ namespace FluentValidationApp.Controllers
         {
             List<Customer> customers = await _context.Customers.ToListAsync();
 
+            //_mapper.Map<List<Customer>>(new CustomerDTO()); // convert dtomodel to model
+
             return _mapper.Map<List<CustomerDTO>>(customers);
         }
 
