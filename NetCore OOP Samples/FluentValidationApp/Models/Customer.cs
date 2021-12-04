@@ -7,5 +7,6 @@
         public string Mail { get; set; }
         public int Age { get; set; }
         public DateTime? Birthday { get; set; }
+        public IList<Address> Addresses { get; set; } // one to many
     }
 }

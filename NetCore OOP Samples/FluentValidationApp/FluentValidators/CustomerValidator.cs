@@ -17,6 +17,8 @@ namespace FluentValidationApp.FluentValidators
             {
                 return DateTime.Now.AddYears(-18) >= property;
             }).WithMessage("You have to be an adult for this process...+18...");
+
+            RuleForEach(property => property.Addresses).SetValidator(new AddressValidator());
         }
 
     }
