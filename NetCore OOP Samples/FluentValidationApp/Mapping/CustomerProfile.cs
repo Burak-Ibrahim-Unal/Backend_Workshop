@@ -13,12 +13,15 @@ namespace FluentValidationApp.Mapping
             //CreateMap<CustomerDTO, Customer>();
 
             //Way2
-            CreateMap<Customer, CustomerDTO>()
+            //CreateMap<Customer, CustomerDTO>().ReverseMap();
+            CreateMap<CreditCard,CustomerDTO>();
+
+            CreateMap<Customer, CustomerDTO>().IncludeMembers(customer => customer.CreditCard) // all properties are matched... 
                 .ForMember(to => to.FullName, from => from.MapFrom(p => p.Name))
                 .ForMember(to => to.Email, from => from.MapFrom(p => p.Mail))
                 //.ForMember(to=>to.FullProperty,from => from.MapFrom(p=>p.TestFullProperyMethod()))
-                .ForMember(to => to.CCNumber, from => from.MapFrom(c => c.CreditCard.Number))
-                .ForMember(to => to.CCValidDate, from => from.MapFrom(c => c.CreditCard.ValidDate))
+                //.ForMember(to => to.CCNumber, from => from.MapFrom(c => c.CreditCard.Number))
+                //.ForMember(to => to.CCValidDate, from => from.MapFrom(c => c.CreditCard.ValidDate))
                 ;
 
         }
