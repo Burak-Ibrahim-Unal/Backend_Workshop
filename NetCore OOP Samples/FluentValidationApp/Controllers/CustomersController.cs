@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using FluentValidationApp.Models;
 using FluentValidation;
 using FluentValidationApp.FluentValidators;
+using AutoMapper;
 
 namespace FluentValidationApp.Controllers
 {
@@ -15,12 +16,14 @@ namespace FluentValidationApp.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IValidator<Customer> _customerValidator;
+        private readonly IMapper _mapper;
 
 
-        public CustomersController(AppDbContext context, IValidator<Customer> customerValidator)
+        public CustomersController(AppDbContext context, IValidator<Customer> customerValidator, IMapper mapper)
         {
             _context = context;
             _customerValidator = customerValidator;
+            _mapper = mapper;
         }
 
         // GET: Customers
@@ -53,7 +56,7 @@ namespace FluentValidationApp.Controllers
             return View();
         }
 
-        // POST: Customers/Create
+        // POST: Customers/Create   
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
