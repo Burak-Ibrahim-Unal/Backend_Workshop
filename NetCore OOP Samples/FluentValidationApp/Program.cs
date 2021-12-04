@@ -1,17 +1,21 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using FluentValidationApp.FluentValidators;
+using FluentValidationApp.Mapping;
 using FluentValidationApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-//There are 3 ways to implement Fluent Validation in Net Core 6
 
+builder.Services.AddAutoMapper(typeof(CustomerProfile));
+
+//There are 3 ways to implement Fluent Validation in Net Core 6
 builder.Services.AddControllersWithViews().AddFluentValidation(options =>
 {
     //Way1
@@ -27,7 +31,7 @@ builder.Services.AddControllersWithViews().AddFluentValidation(options =>
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
-    options.SuppressModelStateInvalidFilter= true;
+    options.SuppressModelStateInvalidFilter = true;
 });
 
 builder.Services.AddDbContext<AppDbContext>(options =>
