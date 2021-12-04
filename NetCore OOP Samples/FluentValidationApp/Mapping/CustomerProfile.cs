@@ -8,8 +8,13 @@ namespace FluentValidationApp.Mapping
     {
         public CustomerProfile()
         {
-            CreateMap<Customer, CustomerDTO>();
-            CreateMap<CustomerDTO, Customer>();
+            // Way 1
+            //CreateMap<Customer, CustomerDTO>();
+            //CreateMap<CustomerDTO, Customer>();
+
+            //Way2
+            CreateMap<Customer, CustomerDTO>().ReverseMap();
+
         }
 
     }
