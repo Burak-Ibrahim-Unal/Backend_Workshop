@@ -7,6 +7,7 @@ namespace FluentValidationApp.FluentValidators
     {
 
         public string NotEmptyMessage { get; } = "{PropertyName} can not be null or empty";
+        public string GenderMessage { get; } = "{PropertyName} 1 is male,2 is female";
 
         public CustomerValidator()
         {
@@ -19,6 +20,7 @@ namespace FluentValidationApp.FluentValidators
             }).WithMessage("You have to be an adult for this process...+18...");
 
             RuleForEach(property => property.Addresses).SetValidator(new AddressValidator());
+            RuleFor(property => property.Gender).IsInEnum().WithMessage(GenderMessage);
         }
 
     }
