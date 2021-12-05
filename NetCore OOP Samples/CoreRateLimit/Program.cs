@@ -8,9 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOptions();
 builder.Services.AddMemoryCache();
-builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting")); //appsettings.json name
-builder.Services.Configure<IpRateLimitPolicy>(builder.Configuration.GetSection("IpRateLimitPolicies")); //appsettings.json name
-builder.Services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+//builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting")); //appsettings.json name
+//builder.Services.Configure<IpRateLimitPolicy>(builder.Configuration.GetSection("IpRateLimitPolicies")); //appsettings.json name
+builder.Services.Configure<ClientRateLimitOptions>(builder.Configuration.GetSection("ClientRateLimiting")); //appsettings.json name
+builder.Services.Configure<ClientRateLimitPolicies>(builder.Configuration.GetSection("ClientRateLimitPolicies")); //appsettings.json name
+//builder.Services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+builder.Services.AddSingleton<IClientPolicyStore, MemoryCacheClientPolicyStore>();
 builder.Services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
@@ -30,6 +33,7 @@ var app = builder.Build();
 var IpPolicy = app.Services.GetRequiredService<IIpPolicyStore>();
 IpPolicy.SeedAsync().Wait();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -37,7 +41,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseIpRateLimiting();
+//app.UseIpRateLimiting();
+app.UseClientRateLimiting();
 
 app.UseHttpsRedirection();
 
