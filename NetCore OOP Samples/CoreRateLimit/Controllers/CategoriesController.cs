@@ -7,9 +7,11 @@ namespace CoreRateLimit.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
+        [HttpGet]
         public IActionResult GetCategories()
         {
             return Ok(new { Id = 1, Name = "Computers" });
         }
+
     }
 }
