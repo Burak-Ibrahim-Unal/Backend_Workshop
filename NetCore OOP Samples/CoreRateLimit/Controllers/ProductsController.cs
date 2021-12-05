@@ -19,6 +19,21 @@ namespace CoreRateLimit.Controllers
         {
             return Ok(new { Id = 2, Name = "Test", Price = 8 });
         }
+
+        [HttpPut]
+        public IActionResult UpdateProduct()
+        {
+            return Ok();
+        }
+
+
+        [HttpGet("{productName}")]
+        public IActionResult GetProduct(string productName)
+        {
+            return Ok(productName);
+        }
+
+
     }
 
 
