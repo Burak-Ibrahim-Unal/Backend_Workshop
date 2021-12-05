@@ -1,4 +1,5 @@
 using AspNetCoreRateLimit;
+//using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +20,6 @@ builder.Services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrateg
 
 // we will use MemoryCacheIpPolicyStore if we have only 1 server or docker app copy.If we have multiple server or docker app, We have to use DistributedCacheIpPolicyStore
 
-//builder.Services.AddOptions().AddMemoryCache().Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimit"));
-
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -29,6 +27,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var IpPolicy = app.Services.GetRequiredService<IIpPolicyStore>();
+IpPolicy.SeedAsync().Wait();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

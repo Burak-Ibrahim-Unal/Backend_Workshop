@@ -10,7 +10,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "80a99738-72d6-4cf6-9c09-06ee3e1cf047": {
+      "ProjectGuid": "80a99738-72d6-4cf6-9c09-06ee3e1cf047",
+      "DisplayName": "CoreRateLimit",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
