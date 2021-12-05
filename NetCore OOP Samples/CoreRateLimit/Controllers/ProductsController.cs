@@ -12,6 +12,8 @@ namespace CoreRateLimit.Controllers
         {
             return Ok(new { Id = 1, Name = "Pencil", Price = 10 });
         }
+
+
         [HttpPost]
         public IActionResult SaveProduct()
         {
