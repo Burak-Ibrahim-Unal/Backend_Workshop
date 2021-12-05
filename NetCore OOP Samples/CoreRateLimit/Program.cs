@@ -12,9 +12,10 @@ builder.Services.Configure<IpRateLimitPolicy>(builder.Configuration.GetSection("
 builder.Services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
 builder.Services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 //builder.Services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
-//builder.Services.AddInMemoryRateLimiting();
+builder.Services.AddInMemoryRateLimiting();
+builder.Services.AddMvc();
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 
 
 // we will use MemoryCacheIpPolicyStore if we have only 1 server or docker app copy.If we have multiple server or docker app, We have to use DistributedCacheIpPolicyStore
