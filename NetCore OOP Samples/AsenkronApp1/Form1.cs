@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -22,8 +23,14 @@ namespace AsenkronApp1
 
         private async void btnReadTxt_Click(object sender, EventArgs e)
         {
+            string data = string.Empty;
             //string data = ReadTxtFile(); // to use it remove async keyword and await line
-            string data = await ReadTxtFileAsync();
+            Task<string> newData = ReadTxtFileAsync();
+
+            richTextBox1.Text = await new HttpClient().GetStringAsync("https://www.google.com");
+
+            data = await newData;
+
             richTextBoxTxt.Text = data;
         }
 

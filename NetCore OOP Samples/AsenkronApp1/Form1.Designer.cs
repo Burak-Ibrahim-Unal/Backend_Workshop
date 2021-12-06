@@ -32,6 +32,7 @@
             this.richTextBoxTxt = new System.Windows.Forms.RichTextBox();
             this.btnCounter = new System.Windows.Forms.Button();
             this.textBoxCounter = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // btnReadTxt
@@ -69,11 +70,20 @@
             this.textBoxCounter.Size = new System.Drawing.Size(91, 22);
             this.textBoxCounter.TabIndex = 2;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(392, 70);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(158, 106);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 226);
+            this.ClientSize = new System.Drawing.Size(611, 215);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.textBoxCounter);
             this.Controls.Add(this.richTextBoxTxt);
             this.Controls.Add(this.btnCounter);
@@ -92,6 +102,7 @@
         private System.Windows.Forms.RichTextBox richTextBoxTxt;
         private System.Windows.Forms.Button btnCounter;
         private System.Windows.Forms.TextBox textBoxCounter;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
