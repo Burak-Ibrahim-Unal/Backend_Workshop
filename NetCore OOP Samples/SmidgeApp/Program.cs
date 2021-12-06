@@ -1,4 +1,6 @@
 using Smidge;
+using Smidge.Cache;
+using Smidge.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,12 +23,15 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
- 
+
 app.UseAuthorization();
 
 app.UseSmidge(bundle =>
 {
-    bundle.CreateJs("AllJsFiles", "~/js/"); // we can type folder location only
+    bundle.CreateJs("AllJsFiles", "~/js/").WithEnvironmentOptions(BundleEnvironmentOptions.Create().ForDebug(builder =>
+        builder.EnableCompositeProcessing().EnableFileWatcher()
+        .SetCacheBusterType<AppDomainLifetimeCacheBuster>()
+        .CacheControlOptions(enableEtag: false, cacheControlMaxAge: 0)).Build()); // we can type folder location only
     bundle.CreateCss("AllCssFiles", "~/css/site.css", "~/lib/bootstrap/dist/css/bootstrap.css"); // Or we can type one by one
 
 });
