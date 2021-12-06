@@ -28,11 +28,17 @@ app.UseAuthorization();
 
 app.UseSmidge(bundle =>
 {
-    bundle.CreateJs("AllJsFiles", "~/js/").WithEnvironmentOptions(BundleEnvironmentOptions.Create().ForDebug(builder =>
+    bundle.CreateJs("AllJsFiles", "~/js/").WithEnvironmentOptions(BundleEnvironmentOptions.Create().ForProduction(builder =>
         builder.EnableCompositeProcessing().EnableFileWatcher()
         .SetCacheBusterType<AppDomainLifetimeCacheBuster>()
         .CacheControlOptions(enableEtag: false, cacheControlMaxAge: 0)).Build()); // we can type folder location only
-    bundle.CreateCss("AllCssFiles", "~/css/site.css", "~/lib/bootstrap/dist/css/bootstrap.css"); // Or we can type one by one
+
+    bundle.CreateJs("AllJsFiles", "~/css/site.css", "~/lib/bootstrap/dist/css/bootstrap.css").WithEnvironmentOptions(BundleEnvironmentOptions.Create().ForProduction(builder =>
+        builder.EnableCompositeProcessing().EnableFileWatcher()
+        .SetCacheBusterType<AppDomainLifetimeCacheBuster>()
+        .CacheControlOptions(enableEtag: false, cacheControlMaxAge: 0)).Build()); // we can type folder location only
+
+    //bundle.CreateCss("AllCssFiles", "~/css/site.css", "~/lib/bootstrap/dist/css/bootstrap.css"); // Or we can type one by one... to use is add js files into <environment> to layout or uncomment them
 
 });
 
