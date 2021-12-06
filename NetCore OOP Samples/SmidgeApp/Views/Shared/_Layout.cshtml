@@ -4,11 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SmidgeApp</title>
-@*    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    @*    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
     <link rel="stylesheet" href="AllCssFiles" />
-@*    <link rel="stylesheet" href="~/SmidgeApp.styles.css" asp-append-version="true" />
-*@</head>
+    @*    <link rel="stylesheet" href="~/SmidgeApp.styles.css" asp-append-version="true" />
+    *@
+</head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -44,8 +45,16 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-@*    <script src="~/js/site.js" asp-append-version="true"></script>
-*@    <script src="AllJsFiles"></script>
+    @*    <script src="~/js/site.js" asp-append-version="true"></script>
+    *@
+
+    <environment names="Development">
+        <script src="AllJsFiles" debug="true"></script>
+    </environment>  
+    <environment names="Production">
+        <script src="AllJsFiles"></script>
+    </environment>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
