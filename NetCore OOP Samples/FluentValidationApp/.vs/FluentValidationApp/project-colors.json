@@ -15,7 +15,12 @@
       "ProjectGuid": "80a99738-72d6-4cf6-9c09-06ee3e1cf047",
       "DisplayName": "CoreRateLimit",
       "ColorIndex": 1
+    },
+    "71548c0f-1ea2-4dd8-8d93-1dcb57fb817f": {
+      "ProjectGuid": "71548c0f-1ea2-4dd8-8d93-1dcb57fb817f",
+      "DisplayName": "SmidgeApp",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
