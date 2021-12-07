@@ -136,4 +136,4 @@ public class Worker
 }
 
 
-public delegate bool WorkerDelegate(Worker worker); // it is required by  Promotion method...Not necessary for Promotion method
+public delegate bool WorkerDelegate(Worker worker); // it is required by  Promotion method...Not necessary for PromotionV2-V3 methods

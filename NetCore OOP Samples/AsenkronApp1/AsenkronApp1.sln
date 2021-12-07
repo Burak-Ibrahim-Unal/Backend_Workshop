@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateApp", "..\DelegateA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp2", "..\DelegateApp2\DelegateApp2.csproj", "{B9DF67BB-D86B-4283-B08C-3827D722272F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp", "..\EventApp\EventApp.csproj", "{196F8689-4D80-4997-8943-2E2587FE2C02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196F8689-4D80-4997-8943-2E2587FE2C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196F8689-4D80-4997-8943-2E2587FE2C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196F8689-4D80-4997-8943-2E2587FE2C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196F8689-4D80-4997-8943-2E2587FE2C02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
