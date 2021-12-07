@@ -30,7 +30,17 @@
       "ProjectGuid": "989f82a4-1fba-494c-8d11-30284df5f171",
       "DisplayName": "DelegateApp",
       "ColorIndex": 4
+    },
+    "b9df67bb-d86b-4283-b08c-3827d722272f": {
+      "ProjectGuid": "b9df67bb-d86b-4283-b08c-3827d722272f",
+      "DisplayName": "DelegateApp2",
+      "ColorIndex": 5
+    },
+    "196f8689-4d80-4997-8943-2e2587fe2c02": {
+      "ProjectGuid": "196f8689-4d80-4997-8943-2e2587fe2c02",
+      "DisplayName": "EventApp",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
