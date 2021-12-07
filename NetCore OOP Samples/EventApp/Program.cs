@@ -3,7 +3,15 @@
 
 Plane plane1 = new Plane();
 plane1.Model = "Ryanair Abc123 ";
-plane1.speedEvent += Plane1_speedEvent;
+
+//V1
+//plane1.speedEvent += Plane1_speedEvent;
+
+//V2 
+plane1.speedEvent += (speed) =>
+{
+    Console.WriteLine($"V2---Speed is reach {speed}");
+};
 
 
 
@@ -11,14 +19,14 @@ for (int i = 100; i < 1000; i += 50)
 {
     Thread.Sleep(200);
     plane1.Speed = i;
-    Console.WriteLine($"Plane speed is {i}");
+    Console.WriteLine($"{plane1.Model} speed is {i}");
 }
 
-
-static void Plane1_speedEvent(int speed)
-{
-    Console.WriteLine($"Plane speed is reach {speed}");
-}
+//V1
+//static void Plane1_speedEvent(int speed)
+//{
+//    Console.WriteLine($"V1---Speed is reach {speed}");
+//}
 
 
 
@@ -26,7 +34,8 @@ static void Plane1_speedEvent(int speed)
 public class Plane
 {
     private int _speed;
-    public event speedDelegate speedEvent;
+    //public event speedDelegate speedEvent; //V1
+    public event Action<int> speedEvent; //V2
     public int Id { get; set; }
     public string Model { get; set; }
     public int Speed
@@ -48,4 +57,4 @@ public class Plane
 
 
 
-public delegate void speedDelegate(int speed);
+//public delegate void speedDelegate(int speed); //V1 it is required by V1
