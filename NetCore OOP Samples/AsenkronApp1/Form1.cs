@@ -25,7 +25,7 @@ namespace AsenkronApp1
         {
             string data = string.Empty;
             //string data = ReadTxtFile(); // to use it remove async keyword and await line
-            Task<string> newData = ReadTxtFileAsync();
+            Task<string> newData = ReadTxtFileAsync2();
 
             richTextBox1.Text = await new HttpClient().GetStringAsync("https://www.google.com");
 
@@ -73,6 +73,14 @@ namespace AsenkronApp1
                 data = await newData;
 
                 return data;
+            }
+        }   
+        
+        private Task<string> ReadTxtFileAsync2()
+        {
+            using (StreamReader streamReader = new StreamReader("ReadMeToCs.txt"))
+            {
+                return streamReader.ReadToEndAsync();
             }
         }
 
