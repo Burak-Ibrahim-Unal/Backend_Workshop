@@ -74,14 +74,13 @@ namespace AsenkronApp1
 
                 return data;
             }
-        }   
-        
+        }
+
         private Task<string> ReadTxtFileAsync2()
         {
-            using (StreamReader streamReader = new StreamReader("ReadMeToCs.txt"))
-            {
-                return streamReader.ReadToEndAsync();
-            }
+            StreamReader streamReader = new StreamReader("ReadMeToCs.txt");
+            return streamReader.ReadToEndAsync();
+
         }
 
 

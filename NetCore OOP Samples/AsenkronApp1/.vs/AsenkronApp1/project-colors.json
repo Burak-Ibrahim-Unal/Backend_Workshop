@@ -10,7 +10,27 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "59a5d821-6030-4310-a4c9-1720a7e5a906": {
+      "ProjectGuid": "59a5d821-6030-4310-a4c9-1720a7e5a906",
+      "DisplayName": "AsenkronWebApp1",
+      "ColorIndex": 1
+    },
+    "95d58e15-249f-47a4-aabd-b3ac363cbddf": {
+      "ProjectGuid": "95d58e15-249f-47a4-aabd-b3ac363cbddf",
+      "DisplayName": "AsenkronWebApp1",
+      "ColorIndex": 2
+    },
+    "98d55787-a945-4d2b-966c-9a1a04ebd68d": {
+      "ProjectGuid": "98d55787-a945-4d2b-966c-9a1a04ebd68d",
+      "DisplayName": "AsenkronConsoleApp",
+      "ColorIndex": 3
+    },
+    "989f82a4-1fba-494c-8d11-30284df5f171": {
+      "ProjectGuid": "989f82a4-1fba-494c-8d11-30284df5f171",
+      "DisplayName": "DelegateApp",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }

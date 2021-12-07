@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronApp1", "AsenkronApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronWebApp1", "..\AsenkronWebApp1\AsenkronWebApp1.csproj", "{95D58E15-249F-47A4-AABD-B3AC363CBDDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronConsoleApp", "..\AsenkronConsoleApp\AsenkronConsoleApp.csproj", "{98D55787-A945-4D2B-966C-9A1A04EBD68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp", "..\DelegateApp\DelegateApp.csproj", "{989F82A4-1FBA-494C-8D11-30284DF5F171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{95D58E15-249F-47A4-AABD-B3AC363CBDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D58E15-249F-47A4-AABD-B3AC363CBDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D58E15-249F-47A4-AABD-B3AC363CBDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D55787-A945-4D2B-966C-9A1A04EBD68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D55787-A945-4D2B-966C-9A1A04EBD68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D55787-A945-4D2B-966C-9A1A04EBD68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D55787-A945-4D2B-966C-9A1A04EBD68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
