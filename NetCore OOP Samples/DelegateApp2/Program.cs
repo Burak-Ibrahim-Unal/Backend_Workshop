@@ -50,39 +50,45 @@ Worker worker5 = new Worker
 };
 
 workers.Add(worker5); workers.Add(worker4); workers.Add(worker3); workers.Add(worker2); workers.Add(worker1);
-Worker.Promotion(workers, w => w.Salary > 30000);
-Console.WriteLine("----------------------------------------------------------");
-Worker.Promotion(workers, w => w.Experience >= 4);
-Console.WriteLine("----------------------------------------------------------");
-Worker.Promotion(workers, w => w.City == "Ankara");
+
+//Best Way...
+
+//Worker.Promotion(workers, w => w.Salary > 30000);
+//Console.WriteLine("----------------------------------------------------------");
+//Worker.Promotion(workers, w => w.Experience >= 4);
+//Console.WriteLine("----------------------------------------------------------");
+//Worker.Promotion(workers, w => w.City == "Ankara");
 
 //Worker.Promotion(workers, new WorkerDelegate(GetPromotionWithExperience6));
+Worker.PromotionV2(workers, GetPromotionWithExperience5);
+Console.WriteLine("----------------------------------------------------------");
+Worker.PromotionV3(workers, GetPromotionWithExperience5);
 
 
-//bool GetPromotionWithSalary30000(Worker worker)
-//{
-//    if (worker.Salary >= 30000)
-//    {
-//        return true;
-//    }
-//    else
-//    {
-//        return false;
-//    }
-//}
+bool GetPromotionWithSalary30000(Worker worker)
+{
+    if (worker.Salary >= 30000)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 
-//bool GetPromotionWithExperience6(Worker worker)
-//{
-//    if (worker.Experience >= 6)
-//    {
-//        return true;
-//    }
-//    else
-//    {
-//        return false;
-//    }
+bool GetPromotionWithExperience5(Worker worker)
+{
+    if (worker.Experience >= 5)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 
-//}
+}
 
 
 public class Worker
@@ -105,7 +111,29 @@ public class Worker
             }
         }
     }
+
+    public static void PromotionV2(List<Worker> workers, Func<Worker, bool> workerDelegate) // Net Framework 1. delegate...We dont need custom delegates...
+    {
+        foreach (var worker in workers)
+        {
+            if (workerDelegate(worker))
+            {
+                Console.WriteLine($"{worker.Name} {worker.SurName}");
+            }
+        }
+    }
+
+    public static void PromotionV3(List<Worker> workers, Predicate<Worker> workerDelegate) // Net Framework 2. delegate...We dont need custom delegates...
+    {
+        foreach (var worker in workers)
+        {
+            if (workerDelegate(worker))
+            {
+                Console.WriteLine($"{worker.Name} {worker.SurName}");
+            }
+        }
+    }
 }
 
 
-public delegate bool WorkerDelegate(Worker worker);
+public delegate bool WorkerDelegate(Worker worker); // it is required by  Promotion method...Not necessary for Promotion method
