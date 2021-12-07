@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+//Net Core 6.0 version 
+
 void GetFullName1(string name, string surName)
 {
     Console.WriteLine(name + " -1- " + surName);

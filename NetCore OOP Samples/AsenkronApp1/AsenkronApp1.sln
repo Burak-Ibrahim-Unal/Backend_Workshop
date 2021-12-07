@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronApp1", "AsenkronApp1.csproj", "{0E583E16-B396-454D-BDCF-336C744A4B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronWebApp1", "..\AsenkronWebApp1\AsenkronWebApp1.csproj", "{95D58E15-249F-47A4-AABD-B3AC363CBDDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsenkronWebApp1", "..\AsenkronWebApp1\AsenkronWebApp1.csproj", "{95D58E15-249F-47A4-AABD-B3AC363CBDDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronConsoleApp", "..\AsenkronConsoleApp\AsenkronConsoleApp.csproj", "{98D55787-A945-4D2B-966C-9A1A04EBD68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsenkronConsoleApp", "..\AsenkronConsoleApp\AsenkronConsoleApp.csproj", "{98D55787-A945-4D2B-966C-9A1A04EBD68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp", "..\DelegateApp\DelegateApp.csproj", "{989F82A4-1FBA-494C-8D11-30284DF5F171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateApp", "..\DelegateApp\DelegateApp.csproj", "{989F82A4-1FBA-494C-8D11-30284DF5F171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp2", "..\DelegateApp2\DelegateApp2.csproj", "{B9DF67BB-D86B-4283-B08C-3827D722272F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{989F82A4-1FBA-494C-8D11-30284DF5F171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DF67BB-D86B-4283-B08C-3827D722272F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
