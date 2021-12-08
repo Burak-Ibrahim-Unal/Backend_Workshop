@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsenkronConsoleApp", "..\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateApp", "..\DelegateApp\DelegateApp.csproj", "{989F82A4-1FBA-494C-8D11-30284DF5F171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateApp2", "..\DelegateApp2\DelegateApp2.csproj", "{B9DF67BB-D86B-4283-B08C-3827D722272F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateApp2", "..\DelegateApp2\DelegateApp2.csproj", "{B9DF67BB-D86B-4283-B08C-3827D722272F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp", "..\EventApp\EventApp.csproj", "{196F8689-4D80-4997-8943-2E2587FE2C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventApp", "..\EventApp\EventApp.csproj", "{196F8689-4D80-4997-8943-2E2587FE2C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsenkronConsoleApp2", "..\AsenkronConsoleApp2\AsenkronConsoleApp2.csproj", "{8631CD01-CB37-4C7A-85CE-F422F0ADA486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{196F8689-4D80-4997-8943-2E2587FE2C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196F8689-4D80-4997-8943-2E2587FE2C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196F8689-4D80-4997-8943-2E2587FE2C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8631CD01-CB37-4C7A-85CE-F422F0ADA486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8631CD01-CB37-4C7A-85CE-F422F0ADA486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8631CD01-CB37-4C7A-85CE-F422F0ADA486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8631CD01-CB37-4C7A-85CE-F422F0ADA486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
