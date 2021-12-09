@@ -40,7 +40,12 @@
       "ProjectGuid": "196f8689-4d80-4997-8943-2e2587fe2c02",
       "DisplayName": "EventApp",
       "ColorIndex": 6
+    },
+    "8631cd01-cb37-4c7a-85ce-f422f0ada486": {
+      "ProjectGuid": "8631cd01-cb37-4c7a-85ce-f422f0ada486",
+      "DisplayName": "AsenkronConsoleApp2",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
