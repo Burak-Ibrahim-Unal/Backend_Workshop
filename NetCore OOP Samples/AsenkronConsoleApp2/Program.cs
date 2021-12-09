@@ -10,21 +10,23 @@ List<string> urlList = new List<string>()
 };
 
 
-
 List<Task<PageContent>> PagesList = new List<Task<PageContent>>();
-foreach (var url in urlList)
+foreach (var url in urlList.ToList())
 {
     PagesList.Add(getContentAsync(url));
 
 }
 
+var results = await Task.WhenAny(PagesList);
+Console.WriteLine($"{results.Result.Site} --- {results.Result.Len}");
 
-var results = await Task.WhenAll(PagesList.ToArray());
+//var results = await Task.WhenAll(PagesList.ToArray());
 
-foreach (var result in results)
-{
-    Console.WriteLine($"{result.Site}, size:{result.Len}");
-}
+//foreach (var result in results)
+//{
+//    Console.WriteLine($"{result.Site}, size:{result.Len}");
+//}
+
 
 
 
