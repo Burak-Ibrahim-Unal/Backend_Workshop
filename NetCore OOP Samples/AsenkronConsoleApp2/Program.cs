@@ -10,6 +10,7 @@ List<string> urlList = new List<string>()
 };
 
 
+
 List<Task<PageContent>> PagesList = new List<Task<PageContent>>();
 foreach (var url in urlList.ToList())
 {
@@ -17,11 +18,18 @@ foreach (var url in urlList.ToList())
 
 }
 
-var results = await Task.WhenAny(PagesList);
-Console.WriteLine($"{results.Result.Site} --- {results.Result.Len}");
+Console.WriteLine("before Wait all...");
+var results = await Task.WhenAll(PagesList.ToArray());
+Console.WriteLine("after Wait all...");
+
+
+//var results = await Task.WhenAny(PagesList);
+//Console.WriteLine($"{results.Result.Site} --- {results.Result.Len}");
+
+/*var results = await Task.WhenAll(PagesList.ToArray());*/ // İf we use wait all instead of waitall,we block thread and thread will wait until code is complete.
+
 
 //var results = await Task.WhenAll(PagesList.ToArray());
-
 //foreach (var result in results)
 //{
 //    Console.WriteLine($"{result.Site}, size:{result.Len}");
