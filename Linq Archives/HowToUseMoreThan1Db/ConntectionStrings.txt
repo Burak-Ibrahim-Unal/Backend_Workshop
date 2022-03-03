@@ -1,3 +1,3 @@
-"MssqlConnectionString": "Data Source=anksqlmrkdb1;Database=TracingDb;Integrated Security=false;User ID=xxxxxx;Password=xxxxxx",
+"MssqlConnectionString": "Data Source=xxxxxx;Database=xxxxxx;Integrated Security=false;User ID=xxxxxx;Password=xxxxxx",
 "OracleConnectionString": "DATA SOURCE=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = ANKORAURTDB)(PORT = xxxxxx))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = xxxxxx)));PASSWORD=xxxxxx;PERSIST SECURITY INFO=True;USER ID=xxxxxx;"
     
