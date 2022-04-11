@@ -14,5 +14,8 @@ To run this project's backend side, run powershell as a administrator:
 Example
 New-Service -Name ServiceName -BinaryPathName "ServicePath" -DisplayName "ServiceDisplayName" -StartupType Automatic
 ```
+
+```
 Example
 New-Service -Name SmsTestService -BinaryPathName "D:\xxx\Publish\WindowsService\SmsWorkerService.exe" -Description "Otomatik Sms Test Service" -DisplayName "BurakTestService" -StartupType Automatic
+```
