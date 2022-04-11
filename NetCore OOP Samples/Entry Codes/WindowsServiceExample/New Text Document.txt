@@ -1,0 +1,1 @@
+New-Service -Name SmsTestService -BinaryPathName "D:\Burak\Projeler\Publish\WindowsService\SmsWorkerService.exe" -Description "Otomatik Sms Test Service" -DisplayName "BurakTestService" -StartupType Automatic
