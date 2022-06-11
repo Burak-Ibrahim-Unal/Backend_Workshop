@@ -1,4 +1,6 @@
 using Microsoft.Extensions.Options;
+using Products.Repositories;
+using Products.Repositories.Interfaces;
 using Products.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,7 @@ builder.Services.Configure<ProductDatabaseSettings>(builder.Configuration.GetSec
 builder.Services.AddSingleton<IProductDatabaseSettings>(sp=>sp.GetRequiredService<IOptions<ProductDatabaseSettings>>().Value);
 
 builder.Services.AddTransient<IProductDatabaseSettings,ProductDatabaseSettings>();
+builder.Services.AddTransient<IProductRepository,ProductRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 // builder.Services.AddEndpointsApiExplorer();
