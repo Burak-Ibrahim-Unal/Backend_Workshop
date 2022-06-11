@@ -22,7 +22,7 @@ namespace Products.Repositories
             await _productContext.Products.InsertOneAsync(product);
         }
 
-        public async Task<bool> Delete(string id)
+        public async Task<bool> Delete(Guid id)
         {
             var filteredProduct = Builders<Product>.Filter.Eq(p => p.Id, id);
             DeleteResult deleteResult = await _productContext.Products.DeleteOneAsync(filteredProduct);
@@ -31,7 +31,7 @@ namespace Products.Repositories
 
         }
 
-        public async Task<Product> GetProduct(string id)
+        public async Task<Product> GetProduct(Guid id)
         {
             return await _productContext.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
         }

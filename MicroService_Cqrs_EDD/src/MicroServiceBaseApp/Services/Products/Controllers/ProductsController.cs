@@ -8,16 +8,16 @@ namespace Products.Controllers
 
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductsController : ControllerBase
     {
         #region Variables
         private readonly IProductRepository _productRepository;
-        private readonly ILogger<ProductController> _logger;
+        private readonly ILogger<ProductsController> _logger;
         #endregion
 
 
         #region Constructor
-        public ProductController(IProductRepository productRepository, ILogger<ProductController> logger)
+        public ProductsController(IProductRepository productRepository, ILogger<ProductsController> logger)
         {
             _productRepository = productRepository;
             _logger = logger;
@@ -30,15 +30,15 @@ namespace Products.Controllers
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-            var prodocts = await _productRepository.GetProducts();
-            return Ok(prodocts);
+            var products = await _productRepository.GetProducts();
+            return Ok(products);
 
         }
 
 
         [HttpGet("{id:length(36)}", Name = "GetProduct")]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Product>> GetProduct(string id)
+        public async Task<ActionResult<Product>> GetProduct(Guid id)
         {
             var product = await _productRepository.GetProduct(id);
             if (product == null)
@@ -70,7 +70,7 @@ namespace Products.Controllers
 
 
         [HttpDelete("{id:length(36)}")]
-        public async Task<IActionResult> DeleteProductById(string id){
+        public async Task<IActionResult> DeleteProductById(Guid id){
             return Ok(await _productRepository.Delete(id));
         }
 

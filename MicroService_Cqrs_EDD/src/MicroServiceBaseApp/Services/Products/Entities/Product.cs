@@ -5,9 +5,13 @@ namespace Products.Entities
 {
     public class Product
     {
+        // [BsonId]
+        // [BsonRepresentation(BsonType.ObjectId)] // this settings make all Id's must be unique
+        // public string Id { get; set; }
+
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)] // this settings make all Id's must be unique
-        public string Id { get; set; }
+        public Guid Id { get; set; }
+        
         
 
         [BsonElement("Name")]
