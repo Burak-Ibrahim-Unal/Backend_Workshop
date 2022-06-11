@@ -1,6 +1,6 @@
 namespace Products.Settings
 {
-    public interface IProductsDatabaseSettings
+    public interface IProductDatabaseSettings
     {
         public string ConnectionStrings { get; set; }
         public string DatabaseName { get; set; }
