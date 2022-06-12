@@ -4,19 +4,17 @@ services:
   MicroserviceBaseAppDb:
     container_name: microservicebaseappdb
     restart: always
-    volumes:
-      - ${WEBAPP_STORAGE}/site:/data/db
-      # ./data:/data/db
+
     ports:
       - "27017:27017"
 
 
-  microservicebaseapp.products:
+  MicroserviceBaseApp.Products:
     container_name: microservicebaseappproducts
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=https://+:443; http://+:80
-      - "ProductDatabaseSettings:ConnectionString=mongodb://localhost:27017"
+      - "ProductDatabaseSettings:ConnectionString=mongodb://mongodb:27017"
     depends_on:
       - microservicebaseappdb
     ports:
