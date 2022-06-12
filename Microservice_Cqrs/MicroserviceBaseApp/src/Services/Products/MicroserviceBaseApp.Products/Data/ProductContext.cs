@@ -1,9 +1,9 @@
 using MongoDB.Driver;
-using Products.Data.Interfaces;
-using Products.Entities;
-using Products.Settings;
+using MicroserviceBaseApp.Products.Data.Interfaces;
+using MicroserviceBaseApp.Products.Entities;
+using MicroserviceBaseApp.Products.Settings;
 
-namespace Products.Data
+namespace MicroserviceBaseApp.Products.Data
 {
     public class ProductContext : IProductContext
     {

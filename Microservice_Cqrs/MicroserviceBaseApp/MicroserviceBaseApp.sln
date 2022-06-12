@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{9CBFF4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{1FE52F59-5E49-4403-BD5F-B04A2E0D7031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Products.csproj", "{ACD0547B-ED64-4F07-BFB8-CD0733D19B52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "MicroserviceBaseApp.Products\MicroserviceBaseApp.Products.csproj", "{ACD0547B-ED64-4F07-BFB8-CD0733D19B52}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5948D6EA-A50E-417F-AE0A-7D7539A34321}"
 EndProject

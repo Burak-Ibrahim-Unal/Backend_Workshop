@@ -1,8 +1,11 @@
 version: '3.4'
 
 services:
+  MicroserviceBaseAppDb:
+    image: mongo
+    
   products:
-    image: ${DOCKER_REGISTRY-}products
+    image: ${DOCKER_REGISTRY-}microservicebaseappproducts
     build:
       context: .
-      dockerfile: Products/Dockerfile
+      dockerfile: MicroserviceBaseApp.Products/Dockerfile

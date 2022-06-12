@@ -1,7 +1,7 @@
 using MongoDB.Driver;
-using Products.Entities;
+using MicroserviceBaseApp.Products.Entities;
 
-namespace Products.Data.Interfaces
+namespace MicroserviceBaseApp.Products.Data.Interfaces
 {
     public interface IProductContext
     {

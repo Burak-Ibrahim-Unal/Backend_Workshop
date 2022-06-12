@@ -1,6 +1,6 @@
-using Products.Entities;
+using MicroserviceBaseApp.Products.Entities;
 
-namespace Products.Repositories.Interfaces
+namespace MicroserviceBaseApp.Products.Repositories.Interfaces
 {
     public interface IProductRepository
     {

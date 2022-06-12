@@ -1,9 +1,10 @@
-using Products.Data.Interfaces;
-using Products.Entities;
-using Products.Repositories.Interfaces;
+using MicroserviceBaseApp.Products.Entities;
 using MongoDB.Driver;
+using MicroserviceBaseApp.Products.Data;
+using MicroserviceBaseApp.Products.Data.Interfaces;
+using MicroserviceBaseApp.Products.Repositories.Interfaces;
 
-namespace Products.Repositories
+namespace MicroserviceBaseApp.Products.Repositories
 {
     public class ProductRepository : IProductRepository
     {

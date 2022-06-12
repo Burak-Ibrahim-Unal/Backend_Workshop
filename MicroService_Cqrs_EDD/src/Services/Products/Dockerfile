@@ -15,9 +15,7 @@ WORKDIR "/src/src/Services/Products"
 RUN dotnet build "Products.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Products.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
+RUN dotnet publish "Products.csproj" -c Release -o /app/publish /p:UseAppHost=falsewwwww
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Products.dll"]

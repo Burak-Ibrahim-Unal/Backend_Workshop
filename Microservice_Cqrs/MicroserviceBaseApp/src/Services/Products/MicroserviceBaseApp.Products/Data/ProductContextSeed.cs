@@ -1,7 +1,7 @@
 using MongoDB.Driver;
-using Products.Entities;
+using MicroserviceBaseApp.Products.Entities;
 
-namespace Products.Data
+namespace MicroserviceBaseApp.Products.Data
 {
     public class ProductContextSeed
     {

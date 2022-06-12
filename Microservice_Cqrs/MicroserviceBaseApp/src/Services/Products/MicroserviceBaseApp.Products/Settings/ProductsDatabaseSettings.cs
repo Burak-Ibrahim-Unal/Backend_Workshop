@@ -1,4 +1,4 @@
-namespace Products.Settings
+namespace MicroserviceBaseApp.Products.Settings
 {
     public class ProductDatabaseSettings : IProductDatabaseSettings
     {

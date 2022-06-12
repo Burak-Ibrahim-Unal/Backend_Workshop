@@ -1,9 +1,9 @@
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using Products.Entities;
-using Products.Repositories.Interfaces;
+using MicroserviceBaseApp.Products.Repositories.Interfaces;
+using MicroserviceBaseApp.Products.Entities;
 
-namespace Products.Controllers
+namespace MicroserviceBaseApp.Products.Controllers
 {
 
     [Route("api/v1/[controller]")]
@@ -12,6 +12,7 @@ namespace Products.Controllers
     {
         #region Variables
         private readonly IProductRepository _productRepository;
+
         private readonly ILogger<ProductsController> _logger;
         #endregion
 
