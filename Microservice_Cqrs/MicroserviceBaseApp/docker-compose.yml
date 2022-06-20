@@ -4,7 +4,7 @@ services:
   MicroserviceBaseAppDb:
     image: mongo
     
-  products:
+  microservicebaseapp.products:
     image: ${DOCKER_REGISTRY-}microservicebaseappproducts
     build:
       context: .

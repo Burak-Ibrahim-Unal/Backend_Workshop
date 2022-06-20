@@ -4,6 +4,8 @@ services:
   MicroserviceBaseAppDb:
     container_name: microservicebaseappdb
     restart: always
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
 
     ports:
       - "27017:27017"
