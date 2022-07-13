@@ -1,8 +1,26 @@
 version: '3.4'
 
 services:
-  products:
+  MicroserviceBaseAppDb:
+    container_name: microservicebaseappdb
+    restart: always
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
+
+    ports:
+      - "27017:27017"
+
+
+  MicroserviceBaseApp.Products:
+    container_name: microservicebaseappproducts
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443; http://+:80
+      - "ProductDatabaseSettings:ConnectionString=mongodb://mongodb:27017"
+    depends_on:
+      - microservicebaseappdb
     ports:
-      - "80"
+      - "8000:80"
+    volumes:
+      - ${HOME}/ASP.NET/Https:/root/.aspnet/https/
+      - ${HOME}/.microsoft/usersecrets/:/root/.microsoft/usersecrets
