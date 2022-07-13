@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApp", "JsonApp.csproj", "{3AF87AB3-13AE-4550-B9BC-BB7FE5E21044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF87AB3-13AE-4550-B9BC-BB7FE5E21044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF87AB3-13AE-4550-B9BC-BB7FE5E21044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF87AB3-13AE-4550-B9BC-BB7FE5E21044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF87AB3-13AE-4550-B9BC-BB7FE5E21044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FBB64DB-51EE-46B1-BE51-D23BD821C2C8}
+	EndGlobalSection
+EndGlobal
