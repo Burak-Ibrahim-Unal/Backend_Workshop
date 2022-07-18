@@ -1,18 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Newtonsoft;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-
-static string ReadFromJson(string jsonFile)
+static List<JObject> ReadFromJson(string jsonFile)
 {
     dynamic jsonResult = JsonConvert.DeserializeObject(File.ReadAllText(jsonFile));
-    Console.WriteLine(jsonResult);
-    return jsonResult.ToString();
+    List<JObject> list = new List<JObject>();
+    for (int i = 0; i < jsonResult.Count; i++)
+    {
+        //list.Add(ReadFromJson(jsonResult[i]));
+        list.Add(jsonResult[i]);
+    }
+    Console.WriteLine(list[0]);
+    return list;
     //Console.WriteLine(Directory.GetCurrentDirectory());
 
 }
 
-string path = @"C:\Users\Burak\Desktop\Github\Backend_Workshop\NetCore OOP Samples\JsonModify\JsonApp\warehouses.json";
+string path = @"D:\Burak\Github\Backend_Workshop\NetCore OOP Samples\JsonModify\JsonApp\bin\Debug\net6.0\warehouses.json";
 var result = ReadFromJson(path);
 
 
