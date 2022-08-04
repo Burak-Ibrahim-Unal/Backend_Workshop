@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Google.Protobuf.WellKnownTypes;
+using Grpc.Core;
 using Grpc.Net.Client;
 using GrpcService1;
 
@@ -23,6 +25,19 @@ var customerClient = new Customer.CustomerClient(channel); // but we have differ
 var customer = await customerClient.GetCustomerInfoAsync(clientRequested);
 
 Console.WriteLine($"{customer.FirstName} {customer.LastName}");
+Console.WriteLine();
+Console.WriteLine("New customers...");
+Console.WriteLine();
 
+
+using (var call = customerClient.GetNewCustomers(new NewCustomerRequest()))
+{
+    while (await call.ResponseStream.MoveNext())
+    {
+        var CurrentCustomer = call.ResponseStream.Current;
+        Console.WriteLine($"{CurrentCustomer.FirstName} {CurrentCustomer.LastName} {CurrentCustomer.EmailAddress }");
+
+    }
+}
 
 Console.ReadLine();
