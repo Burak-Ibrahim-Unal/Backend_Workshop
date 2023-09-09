@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CQCQIsEPFaX85H6YTSx376B9pKdo6FjIydBBMpc5Fnp/0N09Q+HdId/fNnllJ0YTB77KzrOf9oDtfqEo/NcWwg==",
+  "dgSpecHash": "+DCOZ5ixyUe4XIABTCeourjs2Mf0aVVNzKtPKVXh5v6HR9jny72NngSbNmpPNsEVnaKT3qPV4HrfCPnEdw5hjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\C_Sharp_Project_Codes\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\Backend_Workshop\\NetCore OOP Samples\\OOP_Test21_Car_Final\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
