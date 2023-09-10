@@ -6,10 +6,22 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 8000
+          "Port": 7001
         }
       ],
       "UpstreamPathTemplate": "/res/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/contact/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9001
+        }
+      ],
+      "UpstreamPathTemplate": "/con/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ]
